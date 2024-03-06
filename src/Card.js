@@ -1,6 +1,6 @@
 function Card(){
   return (
-    <div class="card" style="width: 18rem;">
+    <div class="card" style={{maxWidth: 400, display: "inline-block", margin: 20}}>
       <img class="card-img-top" src="..." alt="Card image cap"/>
       <div class="card-body">
         <h5 class="card-title">this is the card title</h5>
